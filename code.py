@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 
 
-with open("Student Marks vs Days Present.csv.csv") as f:
+with open("correlation/Student Marks vs Days Present.csv.csv") as f:
     df = csv.DictReader(f)
     fig = px.scatter(df, x="Marks In Percentage", y="Days Present")
 
